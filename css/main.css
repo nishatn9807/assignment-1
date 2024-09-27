@@ -1,0 +1,33 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    background-color: salmon;
+    text-align: center;
+    color: navy;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    padding: 100px; 
+}
+
+
+.animal {
+    display: flex;
+    margin: 20px; 
+    flex-basis: 10%;
+}
+
+.animal a {
+    margin-right: 10px;
+    color: rgb(59, 45, 45);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.animal img {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
